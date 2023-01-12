@@ -1,0 +1,17 @@
+package ch02.sec04;
+
+public class FloatDoubleExample {
+    public static void main(String[] args){
+        float var1 = 0.1234567890123456789f; //자바는 기본적으로 double타입 f를 붙여 float로 변환
+        double var2 = 0.1234567890123456789;
+        System.out.println("var1: " + var1);
+        System.out.println("var2: " + var2);
+
+        double var3 = 3e6; //3 * 10^6
+        float var4 = 3e6F; //3 * 10^6의 float형
+       double var5 = 2e-3;;//2 * 10^-3
+       System.out.println("var3: " + var3);
+       System.out.println("var4: " + var4);
+       System.out.println("var5: " + var5);
+    }
+}
