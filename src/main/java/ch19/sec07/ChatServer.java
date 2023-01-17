@@ -26,6 +26,7 @@ public class ChatServer {
                 }
             } catch (IOException e) {}
         });
+        thread.start();
     }
 
     public void addSocketClient(SocketClient socketClient) {
