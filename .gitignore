@@ -6,3 +6,4 @@
 *.iml
 out
 gen
+!/src/main/java/org/example/Main.java
